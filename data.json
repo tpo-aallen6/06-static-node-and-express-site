@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "Quote Generator",
+      "description": "An app that generates and displays random quotes every 5 seconds or when a button is clicked.",
+      "technologies": ["CSS", "HTML", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tpo-aallen6/01-random-quote-generator",
+      "image_urls": [
+        "1one.jpg",
+        "1two.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Data Pagination and Filtering",
+      "description": "An app that displays student information from a given set of data with a functional search bar and page buttons.",
+      "technologies": ["CSS", "HTML", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tpo-aallen6/02-data-pagination-and-filtering",
+      "image_urls": [
+        "2one.jpg",
+        "2two.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "An interactive form to register and pay for a developer conference with form validation.",
+      "technologies": ["CSS", "HTML", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tpo-aallen6/03-interactive-form",
+      "image_urls": [
+        "3one.jpg",
+        "3two.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Phrase Hunter",
+      "description": "An OOJS game show app that has a user guess letters to uncover an entire phrase before losing 5 lives.",
+      "technologies": ["CSS", "HTML", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/tpo-aallen6/04-oop-game-show-app",
+      "image_urls": [
+        "4one.jpg",
+        "4two.jpg",
+        "4three.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Public API Requests",
+      "description": "An app that parses JSON data and displays employee contact information. Clicking on an employee brings up a modal window with additional detail. There is a functional search bar and you can navigate between employees with buttons inside the modal window.",
+      "technologies": ["CSS", "HTML", "JavaScript", "Fetch API", "JSON"],
+      "live_link": "",
+      "github_link": "https://github.com/tpo-aallen6/05-public-api-requests",
+      "image_urls": [
+        "5one.jpg",
+        "5two.jpg"
+      ]
+    }
+  ]
+}
