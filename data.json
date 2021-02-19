@@ -5,7 +5,7 @@
       "project_name": "Quote Generator",
       "description": "An app that generates and displays random quotes every 5 seconds or when a button is clicked.",
       "technologies": ["CSS", "HTML", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://tpo-aallen6.github.io/01-random-quote-generator/",
       "github_link": "https://github.com/tpo-aallen6/01-random-quote-generator",
       "image_urls": [
         "1one.jpg",
@@ -18,7 +18,7 @@
       "project_name": "Data Pagination and Filtering",
       "description": "An app that displays student information from a given set of data with a functional search bar and page buttons.",
       "technologies": ["CSS", "HTML", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://tpo-aallen6.github.io/02-data-pagination-and-filtering/",
       "github_link": "https://github.com/tpo-aallen6/02-data-pagination-and-filtering",
       "image_urls": [
         "2one.jpg",
@@ -31,7 +31,7 @@
       "project_name": "Interactive Form",
       "description": "An interactive form to register and pay for a developer conference with form validation.",
       "technologies": ["CSS", "HTML", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://tpo-aallen6.github.io/03-interactive-form/",
       "github_link": "https://github.com/tpo-aallen6/03-interactive-form",
       "image_urls": [
         "3one.jpg",
@@ -44,7 +44,7 @@
       "project_name": "Phrase Hunter",
       "description": "An OOJS game show app that has a user guess letters to uncover an entire phrase before losing 5 lives.",
       "technologies": ["CSS", "HTML", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://tpo-aallen6.github.io/04-oop-game-show-app/",
       "github_link": "https://github.com/tpo-aallen6/04-oop-game-show-app",
       "image_urls": [
         "4one.jpg",
@@ -57,25 +57,12 @@
       "project_name": "Public API Requests",
       "description": "An app that parses JSON data and displays employee contact information. Clicking on an employee brings up a modal window with additional detail. There is a functional search bar and you can navigate between employees with buttons inside the modal window.",
       "technologies": ["CSS", "HTML", "JavaScript", "Fetch API", "JSON"],
-      "live_link": "",
+      "live_link": "https://tpo-aallen6.github.io/05-public-api-requests/",
       "github_link": "https://github.com/tpo-aallen6/05-public-api-requests",
       "image_urls": [
         "5one.jpg",
         "5two.jpg",
         "5three.jpg"
-      ]
-    },
-    {
-      "id": 6,
-      "project_name": "Static Node and Express Site",
-      "description": "A static Node and Express site that contains my portfolio of projects that I've written in the Treehouse Full Stack JavaScript bootcamp.",
-      "technologies": ["CSS", "HTML", "JavaScript", "Node", "Express", "Pug", "JSON"],
-      "live_link": "",
-      "github_link": "https://github.com/tpo-aallen6/06-static-node-and-express-site",
-      "image_urls": [
-        "6one.jpg",
-        "6two.jpg",
-        "6three.jpg"
       ]
     }
   ]
