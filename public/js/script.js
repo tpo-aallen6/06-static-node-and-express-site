@@ -8,7 +8,7 @@ let headerBtnClicked = false
 
 document.querySelectorAll('.portfolio-intro')
   .forEach(element => {
-    element.style.backgroundColor = '#abdae6'
+    element.style.backgroundColor = 'lightcyan'
   })
 
 document.querySelectorAll('.portfolio-intro p')
@@ -23,7 +23,7 @@ document.querySelectorAll('.cell')
 
 document.querySelectorAll('.nav')
   .forEach(element => {
-    element.style.backgroundColor = '#abdae6'
+    element.style.backgroundColor = 'lightcyan'
   })
 
 document.querySelector('#menu-icon').addEventListener('click', e => {

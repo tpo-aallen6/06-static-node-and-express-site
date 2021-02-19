@@ -4,53 +4,53 @@ const port = 3000
 
 const projectData = require('./data.json')
 
+// set the static route
 app.use('/static', express.static('public'))
 
+// set the view engine to pug
 app.set('view engine', 'pug')
 
+// root route
 app.get('/', (req, res) => {
   res.render('index', projectData)
 })
 
+// about route
 app.get('/about', (req, res) => {
   res.render('about', projectData)
 })
 
+// project route with error handler
 app.get('/project/:id', (req, res) => {
   const projectIndex = parseInt(req.params.id) - 1
-  res.render('project', projectData.projects[projectIndex])
+  res.render('project', projectData.projects[projectIndex], (err, html) => {
+    if (err) {
+      console.log('Something went wrong, please go back.')
+      res.render('error', {
+        err: {
+          message: 'Something went wrong, please go back.',
+          status: 500
+        }
+      })
+    } else {
+      res.send(html)
+    }
+  })
 })
 
+// 404 route handler
 app.use((req, res, next) => {
-  const err = new Error('That page does not exist, please go back.')
-  err.status = 404
-  next(err)
+  console.log('Sorry, page not found. Please go back. ')
+  res.render('page-not-found', {
+    err:
+    {
+      message: 'That page does not exist, please go back.',
+      status: 404
+    }
+  })
 })
 
-app.use((err, req, res, next) => {
-  res.status(err.status || 500)
-
-  if (err.status === 404) {
-    console.log('Sorry, that page was not found.')
-    res.render('page-not-found', {
-      err: {
-        message: err.message,
-        status: err.status
-      }
-    })
-  } else {
-    err.message = 'Sorry, something went wrong. PLease try again'
-    err.status = 500
-    console.log('Sorry, something went wrong. Please try again.')
-    res.render('error', {
-      err: {
-        message: err.message,
-        status: err.status
-      }
-    })
-  }
-})
-
+// listens to localhost:3000
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}...`)
 })
