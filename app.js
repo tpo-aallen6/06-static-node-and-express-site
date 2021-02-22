@@ -25,7 +25,6 @@ app.get('/project/:id', (req, res) => {
   const projectIndex = parseInt(req.params.id) - 1
   res.render('project', projectData.projects[projectIndex], (err, html) => {
     if (err) {
-      console.log('Something went wrong, please go back.')
       res.render('error', {
         err: {
           message: 'Something went wrong, please go back.',
@@ -40,7 +39,6 @@ app.get('/project/:id', (req, res) => {
 
 // 404 route handler
 app.use((req, res, next) => {
-  console.log('Sorry, page not found. Please go back. ')
   res.render('page-not-found', {
     err:
     {
